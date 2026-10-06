@@ -1,0 +1,28 @@
+{
+  "name": "airbnb-listing-clone",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "vite build && node tools/visual/e2e.mjs",
+    "shots": "vite build && node tools/visual/shots.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^153.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright-core": "^1.63.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

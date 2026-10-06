@@ -1,0 +1,4 @@
+node_modules
+dist
+tools/visual/out
+.DS_Store
